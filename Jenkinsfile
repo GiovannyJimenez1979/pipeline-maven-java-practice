@@ -8,7 +8,7 @@ pipeline {
                 sh 'mvn clean compile'
             }
         }
-        stage('Test') {
+        stage('Test ') {
             steps {
                 echo 'Testing...'
                 // Run tests using Maven
